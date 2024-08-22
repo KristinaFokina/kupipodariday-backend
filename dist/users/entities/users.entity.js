@@ -36,7 +36,7 @@ __decorate([
 ], User.prototype, "username", void 0);
 __decorate([
     (0, typeorm_1.Column)({ default: 'Пока ничего не рассказал о себе' }),
-    (0, class_validator_1.Length)(2, 300),
+    (0, class_validator_1.Length)(2, 200),
     __metadata("design:type", String)
 ], User.prototype, "about", void 0);
 __decorate([
