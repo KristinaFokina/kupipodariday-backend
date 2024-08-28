@@ -15,6 +15,9 @@ import { Wish } from './entities/wishes.entity';
 
 @Injectable()
 export class WishesService {
+  save(item: Wish) {
+    throw new Error('Method not implemented.');
+  }
   constructor(
     @InjectRepository(Wish)
     private wishesRepository: Repository<Wish>,
